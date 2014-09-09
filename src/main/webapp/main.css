@@ -1,0 +1,8 @@
+body > div{
+      border-left:1px solid #ddd;
+      border-bottom:1px solid #ddd;
+      margin:2em;
+      line-height:1.5em;
+      font-size:.8em;
+      padding:2em;
+    }
