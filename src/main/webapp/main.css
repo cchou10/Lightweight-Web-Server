@@ -6,3 +6,10 @@ body > div{
       font-size:.8em;
       padding:2em;
     }
+h1 { 
+	text-align: center;
+	font-family: helvetica;
+	font-size: 48px;
+	color: #ffa07a;
+	width: 100%;
+}
