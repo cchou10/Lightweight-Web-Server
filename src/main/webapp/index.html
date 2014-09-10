@@ -5,12 +5,19 @@
   <title>Cat Memes (but not really)</title>
   <link rel="stylesheet" type="text/css" href="main.css">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
-	<h1>HOW PAPER IS MADE</h1>
-	<p>*Inspired by the great Dwight Schrute</p>
-	<div>
-		<h2>The Raw Materials</h2>
+	<div id = "menu">
+		<p class = "header">Raw Materials</p>
+		<p class = "header">Manufacturing</p>
+		<p class = "header">Environment</p>
+	</div>
+	<div id = "main">
+		<h1>HOW PAPER IS MADE</h1>
+	</div>
+	<h2 id = "althead">The Raw Materials</h2>
+	<div id = "raw">
 		<h3>Trees</h3>
 			<p>Half the fiber used in paper is from wood that has been purposely
 			harvested to make paper. The other half is generally from recycled
@@ -29,9 +36,10 @@
 			<p>They need to color the paper and throw in chemicals and things too
 			like bleaches and dyes and various organic and inorganic fillers.
 			This is why we probably shouldn't eat paper</p>
+		</div>
     </div>
-    <div>
-    	<h2>The Manufacturing Process </h2>
+    <h2 id = "mainhead">The Manufacturing Process </h2>
+    <div id = "manu">    	
     	<h3>Making Pulp</h3>
 			<p>In the mechanical process, logs are first tumbled in drums to
 				remove the bark. The logs are then sent to grinders, which break
@@ -89,8 +97,8 @@
 				rollers, for a final time. Then the paper is cut to the desired
 				size.</p>
 	</div>
-	<div>
-		<h2>Environment Concerns</h2>
+	<h2 id = "althead2">Environment Concerns</h2>
+	<div id = "enviro">
 		<p>The number of trees and other vegetation cut down in order to
 			make paper is enormous. Paper companies insist that they plant as
 			many new trees as they cut down. Environmentalists contend that the
@@ -108,5 +116,8 @@
 			pollutionfree paper production. The cost of such clean-up efforts is
 			passed on to the consumer.</p>
 	</div>
+	<p class = "footnote">*Inspired by the great Dwight Schrute and information stolen from
+	<a href="http://www.madehow.com/Volume-2/Paper.html">here</a></p>
 </body>
+<!-- Questions I have: how to incorporate javascript without having to make tons of containers -->
 </html>

@@ -1,15 +1,113 @@
-body > div{
-      border-left:1px solid #ddd;
-      border-bottom:1px solid #ddd;
-      margin:2em;
-      line-height:1.5em;
-      font-size:.8em;
-      padding:2em;
-    }
+a:link  {text-decoration: none}
+a:visited {text-decoration: none}
+a:hover   {text-decoration: none}
+a:active  {text-decoration: none}
+
+html, body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border: 0;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+#menu {
+	position: fixed;
+	width: 100%;
+	opacity: 0.6;
+	background: grey;
+	padding: 2px;
+}
+
 h1 { 
+	display: table-cell;
 	text-align: center;
 	font-family: helvetica;
-	font-size: 48px;
-	color: #ffa07a;
+	font-size: 900%;
+	color: #EDBD3E;
+	vertical-align: middle;
+}
+h2 {
+	font-family: helvetica;
+	text-align: center;
+	font-size: 400%;
+	margin: 0;
+	padding: 5%;
+}
+
+h3 {
+	font-family: Verdana;
+	font-size: 200%;
+	text-align: center;
+}
+#althead {
+	background: #EDBD3E;
+}
+#althead2 {
+	background: #EDBD3E;
+}
+#mainhead {
+	background: white;
+}
+
+#main {
+    min-height: 100%;
+	position: relative;
 	width: 100%;
+	padding: 20px;
+	-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    display: table;
+}
+#raw {
+	min-height: 80%;
+	position: relative;
+	width: 100%;
+	background: #EDBD3E;
+	padding: 20px;
+	-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    display: table;
+}
+#manu {
+	min-height: 80%;
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    display: table;
+}
+#enviro{
+	min-height: 80%;
+	position: relative;
+	width: 100%;
+	background: #EDBD3E;
+	padding: 20px;
+	-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    display: table;
+}
+
+p {
+	font-size: 20px;
+}
+p.footnote {
+	text-align: right;
+	font-family: sans-serif;
+	padding: 5px;
+}
+p.header {
+	float: left;
+	font-family: helvetica;
+	padding-left: 12%;
+	padding-right: 12%;
+	color: #EDBD3E;
 }
