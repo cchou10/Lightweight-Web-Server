@@ -1,0 +1,26 @@
+{ "info":[
+	{
+		"title": "Fixed Menu Bar",
+		"path": "/pages/menu.html"
+	},
+	{
+		"title": "Title Page",
+		"path": "/pages/head.html"
+	},
+	{
+		"title": "Raw Materials",
+		"path": "/pages/rawmaterials.html"
+	},
+	{
+		"title": "Manufacturing",
+		"path": "/pages/manufacturing.html"
+	},
+	{
+		"title": "Environmental Impact",
+		"path": "/pages/environment.html"
+	},
+	{
+		"title": "Footer",
+		"path": "/pages/footer.html"
+	}
+]} 
